@@ -11,16 +11,16 @@ Integrantes do Grupo
 Funções da Calculadora
 O programa possui as seguintes 10 funções:
 
-Soma — realiza a soma de dois números.
-Subtração — realiza a subtração de dois números.
-Multiplicação — multiplica dois números.
-Divisão — divide um número pelo outro.
-Potenciação — calcula um número elevado a uma determinada potência.
-Raiz quadrada — calcula a raiz quadrada de um número.
-Média aritmética — calcula a média de dois números.
-Porcentagem — calcula a porcentagem de um valor.
-Área do retângulo — calcula a área de um retângulo utilizando a base e a altura.
-Celsius para Fahrenheit — converte uma temperatura em graus Celsius para Fahrenheit.
+1-Soma : realiza a soma de dois números.
+2-Subtração : realiza a subtração de dois números.
+3-Multiplicação : multiplica dois números.
+4-Divisão : divide um número pelo outro.
+5-Potenciação : calcula um número elevado a uma determinada potência.
+6-Raiz quadrada : calcula a raiz quadrada de um número.
+7-Média aritmética : calcula a média de dois números.
+8-Porcentagem : calcula a porcentagem de um valor.
+9-Área do retângulo : calcula a área de um retângulo utilizando a base e a altura.
+10-Celsius para Fahrenheit : converte uma temperatura em graus Celsius para Fahrenheit.
 
 Além das 10 funções, existe a opção:
 
