@@ -6,6 +6,7 @@ O objetivo deste projeto é desenvolver uma calculadora utilizando o Flowgorithm
 
 Integrantes do Grupo
 -Arthur Teodoro Severo
+
 -Joao Pedro Santos da Silva
 
 Funções da Calculadora
