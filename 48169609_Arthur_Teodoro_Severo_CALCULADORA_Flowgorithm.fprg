@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="48169609_Arthur_Teodoro_Severo_CALCULADORA_Flowgorithm"/>
+        <attribute name="authors" value="Arthur"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-24 11:49:19 "/>
+        <attribute name="created" value="QXJ0aHVyO1NFVkVST1BDOzIwMjYtMDgtMjQ7IjA5OjMyOjExICI7MjQ0MA=="/>
+        <attribute name="edited" value="QXJ0aHVyO1NFVkVST1BDOzIwMjYtMDgtMjQ7IjExOjQ5OjE5ICI7MTsyNTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="opcao" type="Integer" array="False" size=""/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;=====CALCULADORA=====&quot;" newline="True"/>
+            <output expression="&quot;1-SOMA&quot;" newline="True"/>
+            <output expression="&quot;2-SUBTRACAO&quot;" newline="True"/>
+            <output expression="&quot;3-MULTIPLICACAO&quot;" newline="True"/>
+            <output expression="&quot;4-DIVISAO&quot;" newline="True"/>
+            <output expression="&quot;5-POTENCIA&quot;" newline="True"/>
+            <output expression="&quot;6-RAIZ QUADRADA&quot;" newline="True"/>
+            <output expression="&quot;7-MEDIA&quot;" newline="True"/>
+            <output expression="&quot;8-PORCENTAGEM&quot;" newline="True"/>
+            <output expression="&quot;9-AREA DO RETANGULO&quot;" newline="True"/>
+            <output expression="&quot;10-CELSIUS PARA FAHRENHEIT&quot;" newline="True"/>
+            <output expression="&quot;11-ENCERAR&quot;" newline="True"/>
+            <assign variable="OPCAO" expression="0"/>
+            <while expression="OPCAO != 11">
+                <input variable="OPCAO"/>
+                <if expression="OPCAO=1">
+                    <then>
+                        <output expression="&quot;DIGITE O PRIMEIRO NUMERO&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O 2 NUMERO&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="A+B"/>
+                        <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=2">
+                    <then>
+                        <output expression="&quot;DIGITE O PRIMEIRO NUMERO&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O SEGUNDO NUMERO&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="A-B"/>
+                        <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=3">
+                    <then>
+                        <output expression="&quot;DIGITE O PRIMEIRO NUMERO&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O SEGUNDO NUMERO&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="A*B"/>
+                        <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=4">
+                    <then>
+                        <output expression="&quot;DIGITE O DIVIDENDO&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O DIVISOR&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <if expression="B=0">
+                            <then>
+                                <output expression="&quot;ERRO: NAO &#201; POSSIVEL DIVIDIR POR ZERO!&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <assign variable="RESULTADO" expression="A/B"/>
+                                <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=5">
+                    <then>
+                        <output expression="&quot;DIGITE A BASE&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O EXPOENTE&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="A^B"/>
+                        <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=6">
+                    <then>
+                        <output expression="&quot;DIGITE UM NUMERO&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <if expression="A&gt;=0">
+                            <then>
+                                <assign variable="RESULTADO" expression="SQRT(A)"/>
+                                <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;ERRO: NAO EXISTE RAIZ QUADRADA REAL DE NUMERO NEGATIVO!&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=7">
+                    <then>
+                        <output expression="&quot;DIGITE O PRIMEIRO NUMERO&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O SEGUNDO NUMERO&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="(A+B)/2"/>
+                        <output expression="&quot;MEDIA : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=8">
+                    <then>
+                        <output expression="&quot;DIGITE A PORCENTAGEM&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE O VALOR&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="(A*B)/100"/>
+                        <output expression="&quot;RESULTADO : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=9">
+                    <then>
+                        <output expression="&quot;DIGITE A LARGURA&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <output expression="&quot;DIGITE A ALTURA&quot;" newline="True"/>
+                        <input variable="B"/>
+                        <assign variable="RESULTADO" expression="A*B"/>
+                        <output expression="&quot;AREA DO RETANGULO : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO=10">
+                    <then>
+                        <output expression="&quot;DIGITE A TEMPERATURA EM CELSIUS&quot;" newline="True"/>
+                        <input variable="A"/>
+                        <assign variable="RESULTADO" expression="(A*9/5)+32"/>
+                        <output expression="&quot;TEMPERATURA EM FAHRENHEIT : &quot; &amp;RESULTADO" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="OPCAO &lt; 1 OR OPCAO &gt; 11">
+                    <then>
+                        <output expression="&quot;OPCAO INVVALIDA! ESCOLHA UMA OPCAO DE 1 A 11.&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;PROGRAMA ENCERADO. OBRIGADO!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
