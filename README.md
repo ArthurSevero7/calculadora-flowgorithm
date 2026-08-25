@@ -78,3 +78,6 @@ Considerações Finais
 O projeto foi desenvolvido com o objetivo de aplicar conceitos básicos de lógica de programação, como variáveis, operadores, estruturas de decisão, estruturas de repetição, entrada e saída de dados.
 
 A utilização do Flowgorithm possibilitou visualizar de forma mais clara o fluxo de execução do programa e compreender na prática o funcionamento das estruturas utilizadas na construção do algoritmo.
+
+
+ 
