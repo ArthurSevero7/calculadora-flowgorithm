@@ -4,10 +4,12 @@ Objetivo
 
 O objetivo deste projeto é desenvolver uma calculadora utilizando o Flowgorithm, permitindo ao usuário realizar 10 diferentes operações por meio de um menu interativo. O programa utiliza estruturas de repetição e decisão para controlar seu funcionamento.
 
-Integrantes do Grupo
+Integrantes do Grupo :
+
 -Arthur Teodoro Severo
 
 -Joao Pedro Santos da Silva
+
 
 Funções da Calculadora
 O programa possui as seguintes 10 funções:
