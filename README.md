@@ -12,8 +12,11 @@ Funções da Calculadora
 O programa possui as seguintes 10 funções:
 
 1-Soma : realiza a soma de dois números.
+
 2-Subtração : realiza a subtração de dois números.
+
 3-Multiplicação : multiplica dois números.
+
 4-Divisão : divide um número pelo outro.
 5-Potenciação : calcula um número elevado a uma determinada potência.
 6-Raiz quadrada : calcula a raiz quadrada de um número.
